@@ -1,43 +1,43 @@
-Express.js Authentication API
+# Express.js Authentication API
 
 Simple authentication API built with Node.js, Express.js, JWT and sessions.
 
-Features
-User registration
-User login
-JWT authentication
-Session management
-Protected /friends routes
+## Features
+* User registration
+* User login
+* JWT authentication
+* Session management
+* Protected /friends routes
 
-Technologies
-Node.js
-Express.js
-JSON Web Token
-Express Session
+## Technologies
+* Node.js
+* Express.js
+* JSON Web Token
+* Express Session
 
-Installation
+## Installation
 npm install
 
-Run
+## Run
 node app.js
 
-Server runs on:
+## Server runs on:
 http://localhost:5000
 
-API
-Register
+## API
+### Register
 POST /register
 {
   "username": "john",
   "password": "123456"
 }
-Login
+### Login
 POST /login
 {
   "username": "john",
   "password": "123456"
 }
-Friends
+### Friends
 Protected endpoint:
 GET /friends
 
